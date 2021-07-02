@@ -1,6 +1,3 @@
-  /**
-   * javadoc du package.
-   */
 package com.example;
 
   /**
