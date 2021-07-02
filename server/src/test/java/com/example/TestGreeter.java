@@ -22,7 +22,7 @@ public class TestGreeter {
     String someone = "World";
 
     //assertThat(greeter.greet(someone), containsString(someone));
-    assertThat(greeter.greet(someone), containsString(else));
+    assertThat(greeter.greet(someone), containsString("else"));
   }
 
   @Test
