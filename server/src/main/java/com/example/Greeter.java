@@ -1,18 +1,18 @@
 package com.example;
 
-
+  /**
+         * This is a class.
+   */
 public class Greeter {
 
-  /**
-         * Ceci est un commentaire Javadoc. 
-         * Il commence par un slash suivis de deux étoiles. 
-         * Chaque ligne doit ensuite commencer par une étoile. 
-         * Enfin, il fini par une étoile suivie d'un slash.
+    /**
+         * This is a constructor.
    */
   public Greeter() {
  
   }
-
+  
+  //TODO: Add javadoc comment
   public final String greet(final String someone) {
     return String.format("Hello babacar, %s!", someone);
   }
